@@ -1,5 +1,5 @@
-# sistema_bancario1
-Desafio de Projeto - Criando um Sistema Bancário com Python.
+# Desafio Sistema Bancário DIO #
+# Desafio de Projeto - Criando um Sistema Bancário com Python. (Versão 1)
 
 O desafio consiste em criar um sistema bancário simples para apenas um usuário (cliente):
 
@@ -11,3 +11,24 @@ SAQUE
 
 EXTRATO
 	Listar todas as movimentações.
+
+ # Desafio de Projeto - Otimizando o Sistema Bancário com Funções Python. (Versão 2)
+
+Separar saque, depósito e extrato em funções. Criar duas novas funções: cadastrar novo cliente e cadastrar nova conta.
+
+DEPÓSITO
+	Deve receber os argumentos apenas por posição.
+
+SAQUE
+	Deve receber os argumentos apenas por nome.
+
+EXTRATO
+	Deve receber os argumentos por nome e posição.
+
+CRIAR USUÁRIO
+	Armazenar usuários em uma lista. Usuário com: nome, data de nascimento, CPF (só números) e endereço (logradouro, número - bairro - cidade/sigla estado).
+
+CRIAR CONTA CORRENTE
+	Armazenar contas em ma lista. Conta composta por: agência (fixo = 0001), número da conta (sequencial, iniciando em 1) e usuário.
+ 
+ 
